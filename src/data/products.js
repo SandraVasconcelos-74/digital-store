@@ -17,7 +17,7 @@ export const products = [
     id: 3,
     title: "Fone Bluetooth",
     price: 149.9,
-    oldPrice: 199,9,
+    oldPrice: 199.9,
     image: "https://picsum.photos/300/300?3"
   },
   {
