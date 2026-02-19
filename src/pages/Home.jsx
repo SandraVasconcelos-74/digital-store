@@ -3,11 +3,14 @@ import FeaturedProducts from "../components/home/FeaturedProducts"
 import PromoBanner from "../components/home/PromoBanner"
 import Newsletter from "../components/home/Newsletter"
 
+
+const featured = products.filter(p => p.featured);
+
 function Home() {
   return (
     <div className="space-y-16">
       <Hero />
-      <FeaturedProducts />
+      <FeaturedProducts products={featured} />
       <PromoBanner />
       <Newsletter />
     </div>
